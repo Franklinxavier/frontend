@@ -451,6 +451,9 @@ body {
 .testimonial-section {
   margin-bottom: 1rem;
   background-color: #fdf2e9;
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  align-items: center;
 }
 
 .testimonials {
@@ -458,8 +461,8 @@ body {
   grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
 }
-.testimonial {
-  /* padding: 1rem; */
+.testimonial-heading {
+  padding: 9.6rem 4.9rem;
 }
 .testimonial-img {
   width: 6.4rem;
@@ -482,9 +485,18 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.6rem;
+  padding: 1.6rem;
 }
 
+.gallery-item {
+  overflow: hidden;
+}
 .gallery-item img {
   width: 100%;
   display: block;
+  transition: all 0.2s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
 }
