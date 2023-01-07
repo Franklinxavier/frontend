@@ -1,0 +1,11 @@
+.center {
+  text-align: center;
+}
+
+strong {
+  font-weight: 500;
+}
+
+.mr-b-md {
+  margin-bottom: 4.2rem !important;
+}
