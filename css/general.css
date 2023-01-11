@@ -9,3 +9,37 @@ strong {
 .mr-b-md {
   margin-bottom: 4.2rem !important;
 }
+
+.mr-b-lg {
+  margin-bottom: 9.6rem !important;
+}
+
+/****************************************************/
+/****Generic Reusable Components*****/
+/****************************************************/
+
+.container {
+  width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  /* gap: 3rem; */
+}
+.grid--col-2 {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+.grid--col-3 {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+.grid--col-4 {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
