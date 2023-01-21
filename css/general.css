@@ -23,6 +23,11 @@ strong {
   padding: 0 3.2rem;
   margin: 0 auto;
 }
+
+*:focus {
+  /* outline: 1px dashed rgb(104, 91, 91); */
+  outline: 2px solid black;
+}
 .grid {
   display: grid;
   /* gap: 3rem; */
