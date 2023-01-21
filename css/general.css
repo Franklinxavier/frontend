@@ -26,11 +26,10 @@ strong {
 
 *:focus {
   /* outline: 1px dashed rgb(104, 91, 91); */
-  outline: 2px solid black;
+  outline: 1px solid black;
 }
 .grid {
   display: grid;
-  /* gap: 3rem; */
 }
 .grid--col-2 {
   grid-template-columns: repeat(2, 1fr);
@@ -42,6 +41,11 @@ strong {
 }
 .grid--col-4 {
   grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+}
+
+.grid--col-5 {
+  grid-template-columns: repeat(5, 1fr);
   gap: 3rem;
 }
 
